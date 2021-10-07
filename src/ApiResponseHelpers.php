@@ -1,4 +1,5 @@
 <?php
+
 namespace Ogilo;
 
 trait ApiResponseHelpers
@@ -45,5 +46,21 @@ trait ApiResponseHelpers
             'message' => $message,
             $key => $data[$key],
         ], 202);
+    }
+
+    public function respondWithSuccess($message, $code = 200)
+    {
+        return response()->json([
+            'success' => true, 
+            'message' => $message
+        ], $code);
+    }
+
+    public function respondWithError($message, $code = 400)
+    {
+        return response()->json([
+            'success' => false, 
+            'message' => $message
+        ], $code);
     }
 }
