@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ogilo\\LaravelApiResponseHelpers\\": "src/"
+            "Ogilo\\ApiResponseHelpers\\": "src/"
         }
     },
     "authors": [{

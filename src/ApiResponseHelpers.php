@@ -1,6 +1,5 @@
 <?php
-
-namespace App\Support;
+namespace Ogilo\ApiResponseHelpers;
 
 trait ApiResponseHelpers
 {
