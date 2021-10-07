@@ -1,0 +1,17 @@
+{
+    "name": "gogilo/laravel-api-response-helpers",
+    "description": "Laravel Api Response Helpers",
+    "require": {
+        "laravel/laravel": "^8.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ogilo\\LaravelApiResponseHelpers\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Ogilo G.D. Ouma",
+        "email": "gogilo2003@hotmail.com"
+    }]
+}
