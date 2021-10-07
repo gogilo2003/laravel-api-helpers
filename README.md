@@ -1,4 +1,4 @@
-# laravel-api-helpers
+# Api Response Helpers
 Laravel Api Response Helpers for consistent response in laravel REST apis
 
 Use this trait in with your api controller
