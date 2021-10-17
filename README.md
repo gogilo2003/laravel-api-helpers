@@ -2,8 +2,19 @@
 Laravel Api Response Helpers for consistent response in laravel REST apis
 
 ## Installation
+Add repositories to composer.json
 ```
-composer require gogilo/laravel-api-response-helper
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/gogilo2003/laravel-api-response-helpers"
+    }
+]
+    
+```
+Run composer require
+```
+composer require gogilo/laravel-api-response-helpers
 ```
 
 Use this trait in with your api controller
