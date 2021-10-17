@@ -1,6 +1,11 @@
 # Api Response Helpers
 Laravel Api Response Helpers for consistent response in laravel REST apis
 
+## Installation
+```
+composer require gogilo/laravel-api-response-helper
+```
+
 Use this trait in with your api controller
 
 ## Example
